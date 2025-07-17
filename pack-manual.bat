@@ -11,10 +11,10 @@ echo.
 echo Package created in .\packages\
 echo.
 echo To publish to NuGet.org:
-echo nuget push .\packages\BinaryMessageCodec.1.0.0.nupkg -Source https://api.nuget.org/v3/index.json -ApiKey YOUR_API_KEY
+echo nuget push .\packages\BinaryMessageCodec.1.0.1.nupkg -Source https://api.nuget.org/v3/index.json -ApiKey YOUR_API_KEY
 echo.
 echo To use locally:
-echo nuget add .\packages\BinaryMessageCodec.1.0.0.nupkg -Source %CD%\packages
+echo nuget add .\packages\BinaryMessageCodec.1.0.1.nupkg -Source %CD%\packages
 echo.
 
 pause
