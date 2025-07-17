@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\BinaryMessageCodec\BinaryMessageCodec.csproj" />
+    <!-- <ProjectReference Include="..\BinaryMessageCodec\BinaryMessageCodec.csproj" /> -->
+    <PackageReference Include="BinaryMessageCodec" Version="1.0.1" />
   </ItemGroup>
 
   <PropertyGroup>
